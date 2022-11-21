@@ -1,0 +1,37 @@
+Q.1.Difference between http1.1 & http2
+
+HTTP,in full HyperText Transfer Protocol,standard application-level protocol used for exchanging files on the World Wide Web. 
+HTTP runs on top of the TCP/IP protocol.
+It is the basis for almost all web applications.
+The first usable version of HTTP was created in 1997.Because it went through several stages of development,
+this first version of HTTP was called HTTP/1.1. 
+This version is still in use on the web.In 2015, a new version of HTTP called HTTP/2 was created.
+              
+              HTTP/1.1                                         HTTP/2
+
+1.Ithe usest works on the textual format.	         1.It works on the binary protocol.
+2.There is head of line blocking that blocks       2.It allows multiplexing so one TCP connection is required 
+  all the requests behind it until it doesn’t        for multiple requests.
+  get its all resources.
+3.It uses requests resource Inlining for use       3.It uses PUSH frame by server that collects all multiple pages.
+  getting multiple pages.
+4.It compresses data by itself.	               4.It uses HPACK for data compression.
+
+
+Q.2 Objects and it's internal representation in Javascript.
+
+OBJECTS-An object is a collection of related data and/or functionality.
+        These usually consist of several variables and functions which are called properties 
+        and methods when they are inside objects.
+INTERNAL      
+REPRESENTATION-Visual object representation is the process of encoding object information in 
+               visual cortex for purposes of object identification,discrimination, evaluation,
+               and memory storage.
+There are 6 types of objects:
+Object- {}
+Date- date()
+Array- []
+String-" "
+Number-number without quotes.ex 22
+Boolean-True \0 
+        False \1
